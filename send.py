@@ -25,4 +25,5 @@ for i in range(10000):
 	sent = sock.sendto(str(i), multicast_group)
 
 	    # Look for responses from all recipients
+	time.sleep(.001)
 	print i
